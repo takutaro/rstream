@@ -20,9 +20,6 @@ class _R$Controllers extends R$ControllersBase implements R$Controllers {
   _R$Controllers(this._socketsink, this._socketstream, Serializers serializers) : super(serializers) {
     _socketstream?.listen((jsontext) => super.receiveFromSocket(jsontext));
   }
-  factory _R$Controllers.withWebSocket(WebSocket websocket, Serializers serializers) {
-    return _R$Controllers(websocket, websocket, serializers);
-  }
 
   @override
   void sendToSocket(String jsontext) {
