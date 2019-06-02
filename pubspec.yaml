@@ -1,0 +1,15 @@
+name: rstream
+description: Stream controller(s) using WebSocket.
+version: 0.9.0
+homepage: https://github.com/takutaro/
+author: takutaro <@takutaro09>
+
+environment:
+  sdk: '>=2.3.0 <3.0.0'
+
+dependencies:
+  built_value:
+  meta:
+
+dev_dependencies:
+  test:

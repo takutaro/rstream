@@ -1,0 +1,11 @@
+name: example
+
+dependencies:
+  built_collection:
+  built_value:
+  rstream:
+    path: ../
+
+dev_dependencies:
+  build_runner:
+  built_value_generator:
