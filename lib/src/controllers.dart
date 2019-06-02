@@ -3,12 +3,12 @@ import 'dart:convert';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 
-abstract class $R$Controllers {
+abstract class R$ControllersBase {
   final Map<String, StreamController> _controllers = {};
   final List<int> _sockrcvd = [];
   final Serializers _serializers;
 
-  $R$Controllers(this._serializers);
+  R$ControllersBase(this._serializers);
 
   StreamController operator [](String name) {
     final c1 = _controllers[name];
